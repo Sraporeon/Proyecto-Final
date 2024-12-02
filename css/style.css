@@ -1,0 +1,185 @@
+main {
+  background-image: url("../img/edfmin1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  height: 40vw;
+}
+
+.div_contenedor {
+  display: flex;
+  gap: 18vw;
+}
+
+.img_persona {
+  width: 26.7vw;
+  height: auto;
+}
+
+.div_info {
+  text-align: center;
+  line-height: 3vw;
+  margin-top: 10vw;
+  margin-left: 5vw;
+}
+
+.p_centro {
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 0vw;
+}
+
+.p_impulso {
+  font-size: 2vw;
+  color: white;
+}
+
+.div_info h2 {
+  font-size: 5vw;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.b_contacto {
+  border: none;
+  padding: 0.2vw 3vw;
+  border-radius: 5vw;
+  font-size: 1vw;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+}
+
+/*libros*/
+.h2_nuestros {
+  padding-top: 3vw;
+  color: white;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.div_main_libros {
+  width: 50%;
+  margin-left: 8vw;
+}
+
+.div_tabla {
+  max-width: 50vw;
+  height: 31vw;
+  overflow-y: scroll;
+  margin-top: 1vw;
+}
+
+.div_tabla_autores {
+  margin-left: 5vw;
+  max-width: fit-content;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 1.5vw;
+}
+
+.contenedor_main_libros {
+  display: flex;
+  gap: 10vw;
+}
+
+.contenedor_img img {
+  width: 25vw;
+}
+
+/*Contacto*/
+
+.contenedor_main_contacto {
+  display: flex;
+}
+
+.div_main_autores {
+  margin-left: 1vw;
+}
+
+.label_comentario {
+  display: block;
+}
+
+.label_contenedor {
+  margin-left: 2vw;
+}
+
+.span_label,
+.p_comentario {
+  font-size: 1.5vw;
+  color: white;
+}
+
+.p_comentario {
+  margin-top: 1vw;
+  margin-left: 28vw;
+}
+
+.h2_formulario {
+  margin-left: 5vw;
+}
+
+textarea {
+  width: 45vw;
+  height: 12vw;
+  resize: none;
+  padding: 0.5vw;
+  margin-left: 10vw;
+}
+
+.label_contenedor {
+  padding-top: 3vw;
+  display: flex;
+  gap: 2vw;
+}
+
+input {
+  font-size: 1.3vw;
+  color: black;
+}
+
+textarea {
+  font-size: 1.3vw;
+  color: black;
+}
+
+.boton_enviar {
+  border: none;
+  margin-top: 1vw;
+  padding: 0.5vw 1.5vw;
+  background-color: white;
+  color: black;
+  border-radius: 2vw;
+  box-shadow: 0px 1px 1px black;
+  margin-left: 26vw;
+}
+
+/*Datos*/
+.Datos_e {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  margin-left: -1vw;
+}
